@@ -129,7 +129,7 @@ public class Figury extends JFrame {
 
             if ((ob1 == kwadratRadioButton || ob1 = obliczButton)) {
                 a = Double.parseDouble(textBokA.getText());
-                pole = a^2;
+                pole = a * a;
                 Obwod = 4 * a;
                 textPole.setText(String.valueOf(pole));
                 textObwod.setText(String.valueOf(Obwod));
