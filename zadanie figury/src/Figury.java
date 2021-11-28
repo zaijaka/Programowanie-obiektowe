@@ -145,7 +145,7 @@ public class Figury extends JFrame {
                 b = Double.parseDouble(textBokA.getText());
                 h = Double.parseDouble(textWysokosc.getText());
                 pole = a * h / 2;
-                Obwod = a + b + c;
+                Obwod = a + a + a;
                 textPole.setText(String.valueOf(pole));
                 textObwod.setText(String.valueOf(Obwod));
             } else if (ob1 == trapezRadioButton || ob1 == obliczButton) {
