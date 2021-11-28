@@ -182,7 +182,7 @@ public class Figury extends JFrame {
                     textObjetosc.setText(String.valueOf(objetosc));
                 } else if (kulaRadioButton.isSelected() == true) {
                     r = Double.parseDouble(textPromien.getText());
-                    pole = 4 * Math.PI * (r * r);
+                    pole = 4 * 3.14 * (r * r);
                     objetosc = 4 / 3 * 3.14 * (r * r * r);
                     textPole.setText(String.valueOf(pole));
                     textObjetosc.setText(String.valueOf(objetosc));
